@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson 13e</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .inbox {
+      width: 400px;
+      padding: 15px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .title {
+      color: gray;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .email {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+
+    .email-info {
+      flex: 1;
+    }
+
+    .email-top {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sender {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .time {
+      color: gray;
+      font-size: 14px;
+    }
+
+    .subject {
+      font-weight: bold;
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+
+    .message {
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="inbox">
+
+    <div class="title">ALL INBOXES</div>
+
+    <div class="email">
+      <img class="profile" src="first_cat.jpg">
+
+      <div class="email-info">
+        <div class="email-top">
+          <div class="sender">Chewy Promotions</div>
+          <div class="time">4:58 PM</div>
+        </div>
+
+        <div class="subject">Biggest sales of the year!</div>
+
+        <div class="message">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+
+
+    <div class="email">
+      <img class="profile" src="first_dog.jpg">
+
+      <div class="email-info">
+        <div class="email-top">
+          <div class="sender">Best Buy</div>
+          <div class="time">12:32 PM</div>
+        </div>
+
+        <div class="subject">Your Best Buy eReceipt</div>
+
+        <div class="message">
+          Thank you for shopping at Best Buy, here is...
+        </div>
+      </div>
+    </div>
+
+
+    <div class="email">
+      <img class="profile" src="sec_cat.jpg">
+
+      <div class="email-info">
+        <div class="email-top">
+          <div class="sender">Netflix</div>
+          <div class="time">9:00 AM</div>
+        </div>
+
+        <div class="subject">
+          Here's what's coming soon to Netflix
+        </div>
+
+        <div class="message">
+          Brand new movies and shows, old favorites...
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
